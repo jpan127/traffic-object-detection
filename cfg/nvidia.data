@@ -1,0 +1,7 @@
+classes= 15
+train  = /home/CUDAclass/aic1080-test2/data_train_test.txt
+valid = /home/CUDAclass/aic1080-test2/data_val_test.txt
+names = data/nvidia.names
+backup = /home/CUDAclass/weights/
+eval=nvidia
+
