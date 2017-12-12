@@ -22,6 +22,8 @@ More information on the challenge: http://smart-city-sjsu.net/AICityChallenge/
 
 ## Installation
 
+The Makefile is catered towards a linux OS.  May not work on Windows or MacOS.
+
 1. OpenCV
 
     1. Follow the instructions documented on their website to get the latest stable release
@@ -43,6 +45,11 @@ More information on the challenge: http://smart-city-sjsu.net/AICityChallenge/
         git clone https://github.com/pjreddie/darknet
     2. Run <make> command in the top level directory to build from the source files
 
+5. Download the pre-trained weights file from Google Drive
+
+    1. https://drive.google.com/open?id=1qDsYlP-ZYoX3TjTVOYAmX5A3UkAvpfll
+    2. Move to weights/ directory
+
 ## Running The Project
 
 ##### To run an example image
@@ -63,4 +70,4 @@ More information on the challenge: http://smart-city-sjsu.net/AICityChallenge/
 
 ##### Sample Output
 
-![Screenshot](images/sample_output1.jpg)
+![Screenshot](samples/sample_output1.jpg)
